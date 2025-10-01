@@ -6,14 +6,41 @@
   <title>sacanthias portfolio</title>
 </head>
 
-<link rel="stylesheet" href="style.css">
+<!--importing bootstrap 5-->
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js "></script>
+<link href=" https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css " rel="stylesheet">
+
+<!--link to the local stylesheet-->
+<link rel="stylesheet" href="{{ get_url(path="style.css", cachebust=true) | safe }}">
 
 <body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock %}
+  <div id="content">
+    <!--sidebar-->
+    <div id="aside">
+        <nav>
+          <li class="nav-item">
+            <a href="{{ get_url(path='@/about/_index.md') }}" class="nav-link">about</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="{{ get_url(path='@/blog/_index.md') }}"  class="nav-link">blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="{{ get_url(path='@/projects/_index.md') }}" class="nav-link">projects</a>
+          </li>
+        </nav>
     </div>
-  </section>
+
+    <!--main content-->
+    <div class="container" id="main">
+        {% block content %} {% endblock %}
+      </div>
+
+    <div id="footer">
+      <p>Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+    </div>
+  </div>
 </body>
 
 </html>
