@@ -16,6 +16,7 @@ body{
     font-size: 16px;
     color: $body-col;
     background: $body-bg;
+    text-align: justify;
 }
 
 #content{
@@ -72,6 +73,11 @@ body{
     }
 }
 
+#links{
+    display: flex;
+    column-gap: .5rem;
+}
+
 .muted{
     color:$muddy;
 }
@@ -83,6 +89,7 @@ a{
 
     &:hover{
         color:$muddy;
+        text-decoration: underline;
     }
 
     &:visited{
@@ -114,6 +121,7 @@ a{
         position: sticky;
         top: 2rem;
         text-align: right;
+        max-height:calc(100vh - 4rem);
 
         &::after{
             content: '';

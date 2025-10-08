@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Personal</title>
+    <link rel="self" type="application/atom+xml" href="https://sacanthias.github.io/project/personal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://sacanthias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-06T00:00:00+00:00</updated>
+    <id>https://sacanthias.github.io/project/personal/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Starlit Wanderer</title>
+        <published>2024-10-06T00:00:00+00:00</published>
+        <updated>2024-10-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/starlit/"/>
+        <id>https://sacanthias.github.io/projects/starlit/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/starlit/">&lt;p&gt;Starlit Wanderer was a personal project developed for the Granola.gg 2024 Game Jam, based on the theme word &#x27;nostalgia.&#x27;&lt;&#x2F;p&gt;
+&lt;p&gt;In this 48-hour game jam, I was responsible for asset production, which included in-game sprites and resources, cutscenes, and background patterns. All assets were made in Aseprite&lt;&#x2F;p&gt;
+&lt;div&gt;
+
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\bg texture.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;bg texture.02415225e242afbd.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\chatbox.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;chatbox.a99044f68f681385.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\ending frame 1.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;ending frame 1.89e35cb48093bb02.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\ending frame 2.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;ending frame 2.f0282381b0f2c0c3.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame 2.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame 2.e5d37a946b465fcf.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame 3.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame 3.d2f18804fb35eb74.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame 4.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame 4.953d2223059d8e9c.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame 6.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame 6.3d6777df0b3fcc99.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame 7.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame 7.6218795db6ccd0c6.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame one.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame one.fb5a5b20bd9acb0a.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\frame5.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;frame5.54fe39cc2346cde7.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\laser gun hand.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;laser gun hand.fc6a1474312a1aaa.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects\starlit\images\menu.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;menu.973f78afce6eca10.png&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+</feed>
