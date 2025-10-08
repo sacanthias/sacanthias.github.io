@@ -1,44 +1,150 @@
-/*sass variables*/
-$header-txt: 'Times New Roman', serif;
-$body-txt: Calibri; 
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Dosis:wght@200..800&family=Triodion&display=swap');
 
-@media screen and (min-width:992px){
-    #content{
-        min-height: 100vh;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-    }
-}
+/*sass variables*/
+$header-txt: 'Cabin Sketch';
+$body-txt: 'Dosis'; 
+$accent-txt:'Triodion';
+$body-col: #37353E;
+$body-bg: #F2F2F2;
+$teal:#538392;
+$muddy:#706D54;
+$tawny: #C9B194;
+
 
 body{
     font-family: $body-txt, sans-serif;
-    font-size: 13px;
-    background-color: bisque;
+    font-size: 16px;
+    color: $body-col;
+    background: $body-bg;
+}
+
+#content{
+    display: grid;
+    grid-template-areas: 
+        "sidebar"
+        "main"
+        "footer";
 }
 
 #aside{
-    background-color: black;
-    color:beige;
-    max-width:150px;
+    background: $tawny;
+    color:$body-col;
+    max-width:100%;
+    grid-area: sidebar;
+    padding:1rem;
 
     li.nav-item{
         font-size:2rem;
+        list-style: none;
+        background-color: $tawny;
 
-        a{
-            
+        a.nav-link{
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-family: $accent-txt, serif;
+            color:$body-col;
+
+            &:hover{
+                color:$teal;
+            }
+
+            &:focus, &:active{
+                background-color: transparent!important;
+            }
         }
     }
 }
 
 #main{
-    
+    grid-area: main;
+
+    .container{
+        .title{
+            font-family: $header-txt, serif;
+            margin-top: -3.5rem;
+
+            h1{
+                display: inline-block;
+                background-color: $body-bg;
+                padding: 0 1rem;
+            }
+        }
+    }
+}
+
+.muted{
+    color:$muddy;
+}
+
+a{
+    color:$teal;
+    text-decoration: none;
+    transition: all;
+
+    &:hover{
+        color:$muddy;
+    }
+
+    &:visited{
+        color:$muddy;
+    }
+
+    &:focus{
+        color:$body-col;
+        background-color: transparentize($teal, .5);
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    #content{
+        min-height: 100vh;
+        grid-template-areas:
+            "sidebar main  " 
+            "footer  footer";
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr auto;
+    }
+
+    body{
+        padding:50px 200px;
+    }
+
+    #aside{
+        position: sticky;
+        top: 2rem;
+        text-align: right;
+
+        &::after{
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: block;
+            border:1px solid;
+            left:-2rem;
+            top:-1rem;
+            z-index: -1;
+        }
+    }
+
+    #main{
+        padding:30px 60px;
+
+        .container{
+            border: 1px solid;
+            padding: 2rem;
+            position: relative;
+            box-shadow: 2rem 1rem #c9b194;
+        }
+    }
 }
 
 #footer{
     padding:0.5rem;
     font-size:0.8rem;
     text-align: center;
+    grid-area: footer;
 
     a{
         color:inherit;
@@ -47,7 +153,7 @@ body{
 
         &:hover{
             text-decoration: underline;
-            color:cornflowerblue;
+            color:$teal;
         }
     }
 }

@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
+<div class="title">
+  <h1>{{ section.title }}</h1>
+</div>
 
 <p>{{ section.description }}</p>
 
@@ -14,4 +14,13 @@
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
+
+{% for page in section.pages %}
+  <div class="peek-container">
+    <h3 class="peek-title">{{ page.title }}</h3>
+    <p class="peek-date">{{ page.date }}</p>
+    {{ page.summary }}
+    <a class="peek-continue" href="{{ page.permalink }}#continue-reading">Continue Reading</a>
+  </div>
+{% endfor %}
 {% endblock content %}

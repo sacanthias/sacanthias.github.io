@@ -19,7 +19,7 @@
     <div id="aside">
         <nav>
           <li class="nav-item">
-            <a href="{{ get_url(path='@/about/_index.md') }}" class="nav-link">about</a>
+            <a href="/" class="nav-link">home</a>
           </li>
 
           <li class="nav-item">
@@ -33,12 +33,14 @@
     </div>
 
     <!--main content-->
-    <div class="container" id="main">
-        {% block content %} {% endblock %}
-      </div>
+    <div id="main">
+        <div class="container">
+          {% block content %} {% endblock %}
+        </div>
+    </div>
 
     <div id="footer">
-      <p>Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+      <p>&copy; 2025 | Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
     </div>
   </div>
 </body>
