@@ -11,4 +11,4 @@ Starlit Wanderer was a personal project developed for the Granola.gg 2024 Game J
 
 In this 48-hour game jam, I was responsible for asset production, which included in-game sprites and resources, cutscenes, game backgrounds, and background patterns. All assets were made in Aseprite.
 
-{{ gallery(images) }}
+{{ gallery() }}
