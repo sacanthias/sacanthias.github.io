@@ -1,0 +1,14 @@
+{% set images = page.components %}
+{% if images %}
+<div class="gallery">
+  {% for path in images %}
+    {% if path.file_extension == "jpg" or path.file_extension == "png" %}
+      {% set thumb = resize_image(path=path, width=400, height=300, op="fit") %}
+      {% set image = resize_image(path=path, width=1200, height=900, op="fit") %}
+      <a href="{{ image.url }}">
+        <img src="{{ thumb.url }}">
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

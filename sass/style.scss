@@ -103,6 +103,30 @@ a{
 
 }
 
+.project-list{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    > a{
+        font-size: 1.3rem;
+        font-family: $accent-txt, serif;
+    }
+
+    > p{
+        margin:0 auto;
+    }
+}
+
+.peek-container{
+    margin-bottom:0.75rem;
+    >*{
+        margin:0 auto;
+    }
+
+    .peek-date, .peek-continue{
+        font-size:0.85rem;
+    }
+}
+
 @media screen and (min-width:992px) {
     #content{
         min-height: 100vh;
