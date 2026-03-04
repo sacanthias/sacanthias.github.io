@@ -6,8 +6,10 @@ assets="concepts"
 tags=["Academic"]
 +++
 
-Light 'Em Up was an academic project as part of required coursework for IGME 119 - 2D Animation and Asset Production. 
+An academic project focused on asset production and the creative process in the games industry.
  <!-- more -->
+Light 'Em Up
+
 Below are examples of artwork created during the conceptual period of development and assets created for in-game use. This project took place over the course of one semester.
 
 In this class, I was tasked with developing concept artwork and in-game and cutscene assets for a Unity platformer game entirely from scratch, from ideation to implementation. 
