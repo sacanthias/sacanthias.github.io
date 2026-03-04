@@ -3,14 +3,14 @@ title = "Light 'Em Up"
 date = 2025-05-12
 assets="concepts"
 [taxonomies]
-project=["Academic"]
+tags=["Academic"]
 +++
 
 Light 'Em Up was an academic project as part of required coursework for IGME 119 - 2D Animation and Asset Production. 
  <!-- more -->
- <!-- Below are examples of artwork created during the conceptual period of development and assets created for in-game use. This project took place over the course of one semester. -->
+Below are examples of artwork created during the conceptual period of development and assets created for in-game use. This project took place over the course of one semester.
 
-In this class, I was tasked with developing the artwork and cutscene assets for a Unity platformer game entirely from scratch, from ideation to implementation. 
+In this class, I was tasked with developing concept artwork and in-game and cutscene assets for a Unity platformer game entirely from scratch, from ideation to implementation. 
 
 {{ resize_image(img_name="concepts/playerdrafts.png", width=600, height=300, op="fit_width") }}
 

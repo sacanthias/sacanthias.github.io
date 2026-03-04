@@ -13,7 +13,13 @@
 <!--link to the local stylesheet-->
 <link rel="stylesheet" href="{{ get_url(path="style.css", cachebust=true) | safe }}">
 
-<body>
+<!-- link to fontawesome stylesheets -->
+<link rel="stylesheet" href="files/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/brands.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/regular.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/solid.min.css">
+
+<body> 
   <div id="content">
     <!--sidebar-->
     <div id="aside">
@@ -34,7 +40,7 @@
 
     <!--main content-->
     <div id="main">
-        <div class="container">
+        <div class="container-body">
           {% block content %} {% endblock %}
         </div>
     </div>
@@ -43,6 +49,17 @@
       <p>&copy; Naomi Belgrave 2025 | Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
     </div>
   </div>
-</body>
 
+  <!-- tooltip js -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="files/tooltips/jquery.style-my-tooltips.js"></script>
+
+  <script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips();
+        });
+    })(jQuery);
+</script>
+</body>
 </html>

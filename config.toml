@@ -9,7 +9,7 @@ build_search_index = false
 
 # Taxonom(ies)
 taxonomies = [
-    { name = "project", feed = true},
+    { name = "tags", feed = true},
 ]
 
 [markdown]

@@ -1,29 +1,54 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="title">
-    <h1>
-      Naomi Belgrave
-    </h1>
+<div class="header-block">
+
+  <div class="row no-gutters">
+    <div class="col-4">
+      <img class="w-100" id="profile-img" src="https://placehold.co/400">
+    </div>
+    
+    <div class="col-8 pl-2">
+        <h1 class="title">
+           Naomi Belgrave
+        </h1>
+
+        <div class="justify-content-start d-flex" id="links">
+          <p>Find me elsewhere!</p>
+          <a href="https://github.com/sacanthias/"><i class="fab fa-github fa-xl ic" title="View GitHub"></i></a> | 
+          <a href="https://sacanthias.itch.io/"><i class="fab fa-itch-io fa-xl ic" title="View Itch.io"></i></a> | 
+          <a href="https://www.linkedin.com/in/naomi-o-belgrave/"><i class="fab fa-linkedin fa-xl ic" title="View LinkedIn"></i></a> | 
+          <a href="mailto:nob6010@g.rit.edu"><i class="fas fa-envelope fa-xl ic" title="Email"></i></a> |
+          <a href="https://people.rit.edu/nob6010/235/resume_fall2025.pdf"><i class="fas fa-newspaper fa-xl ic" title="View Resume"></i></a>
+        </div>
+      </div>
+  </div>
+
+  <hr>
 </div>
 
-<h2 class="muted" style="font-style: italic; font-size:1.3rem; font-family:'Triodion', serif">Hi! I'm Naomi, a current 2nd year Game Design and Development student at RIT.</h2>
+<h3 class="muted subtitle text-italic">Hi! I'm Naomi, a current 2nd year Game Design and Development student at RIT.</h3>
 
-<p>
-  Since I was young, I've always loved creating: be it drawing, writing, or making music. In high school, I began coding my own websites and templates in HTML/CSS, kickstarting my interest in creating using web and programming technologies, which was furthered by AP coursework in Python and JavaScript.
+<p class="bio">
+  Since I was young, I've always loved creating: be it drawing, writing, or making music. In high school, I began coding my own websites and templates in HTML/CSS, kickstarting my interest in creating with web and programming technologies, which was furthered by AP coursework in Python and JavaScript.
 <br>
 <br>
   At Rochester Institute of Technology, I'm working to finetune my knowledge and experience for designing, coding, writing, and illustrating for interactive media.
 </p>
 
-<div id="links">
-  Find me elsewhere!
-  <p>
-      <a href="https://github.com/sacanthias/">github</a> | 
-      <a href="https://sacanthias.itch.io/">itch.io</a> | 
-      <a href="https://www.linkedin.com/in/naomi-o-belgrave/">linkedin</a> | 
-      <a href="mailto:nob6010@g.rit.edu">email</a> |
-      <a href="https://people.rit.edu/nob6010/235/resume_fall2025.pdf">resume</a>
-  </p>
+<div class="boxed" id="recent-proj">
+  <h2>Featured Project</h2>
+
+  <div class="featured">
+    <img class="featured-img">
+
+    <p class="featured-title"></p>
+  </div>
+</div>
+
+<div class="row no-gutters" id="recents">
+  <div class="col-md-6">
+    
+  </div>
 </div>
 {% endblock content %}

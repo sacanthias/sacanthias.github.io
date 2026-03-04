@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Dosis:wght@200..800&family=Triodion&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Croissant+One&family=Darumadrop+One&family=Genos:wght@500&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=LXGW+Marker+Gothic&family=Namdhinggo:wght@400;500&family=Taviraj:wght@400;500&display=swap');
+
 /*sass variables*/
-$header-txt: 'Cabin Sketch';
+$header-txt: 'Darumadrop One';
 $body-txt: 'Dosis'; 
-$accent-txt:'Triodion';
+$accent-txt:'LXGW Marker Gothic';
 $body-col: #37353E;
 $body-bg: #F2F2F2;
 $teal:#538392;
 $muddy:#706D54;
 $tawny: #C9B194;
 
+h1{
+    font-family: $header-txt;
+}
+
+h2, h3, h5, .subtitle{
+    font-family: $accent-txt;
+}
 
 body{
     font-family: $body-txt, sans-serif;
@@ -36,6 +45,7 @@ body{
 
     li.nav-item{
         font-size:2rem;
+        //margin-bottom:0.5rem;
         list-style: none;
         background-color: $tawny;
 
@@ -59,33 +69,63 @@ body{
 #main{
     grid-area: main;
 
-    .container{
-        .title{
-            font-family: $header-txt, serif;
-            margin-top: -3.5rem;
+    .header-block{
+        .carousel-banner{
+            height:200px;
+        }
 
-            h1{
+        .row{
+            background-color: $body-bg;
+            margin-top: -3.5rem;
+            align-items: end;
+
+            .title{
+                font-family: $header-txt, serif;
                 display: inline-block;
                 background-color: $body-bg;
                 padding: 0 1rem;
+                font-size: 3.5rem;
             }
         }
+
+        hr{
+            border-top-width:6px;
+        }
+    }
+
+    p.bio{
+        padding:1.5rem 0;
     }
 }
 
 #links{
     display: flex;
     column-gap: .5rem;
+
+    i.ic{
+        font-size:1.5rem;
+        transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
 }
 
 .muted{
     color:$muddy;
 }
 
+.clip-title{
+    margin-top: -3rem;
+    background-color: $body-bg;
+    padding: 0.5rem
+}
+
 a{
     color:$teal;
     text-decoration: none;
-    transition: all;
+    transition: all 0.3s;
 
     &:hover{
         color:$muddy;
@@ -163,7 +203,7 @@ a{
     #main{
         padding:30px 60px;
 
-        .container{
+        .boxed{
             border: 1px solid;
             padding: 2rem;
             position: relative;
@@ -188,4 +228,24 @@ a{
             color:$teal;
         }
     }
+}
+
+// tooltips
+#s-m-t-tooltip{
+	/* basic */
+	max-width:300px;
+	z-index:10;
+	margin:24px 14px 7px 12px;
+	/* style and design */
+	padding:2px;
+	background:$body-bg; /* fallback if rgba not supported */
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	border:1px solid rgba(0, 0, 0, 0.25);
+	/* font */
+	font-family:$body-txt, sans-serif;
+	font-size:11px;
+	line-height:16px;
+	color:#706D54;
 }
