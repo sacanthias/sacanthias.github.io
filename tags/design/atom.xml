@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Design</title>
+    <link rel="self" type="application/atom+xml" href="https://sacanthias.github.io/tags/design/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://sacanthias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-01T00:00:00+00:00</updated>
+    <id>https://sacanthias.github.io/tags/design/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Sheep Protector</title>
+        <published>2026-02-01T00:00:00+00:00</published>
+        <updated>2026-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/eclogue/"/>
+        <id>https://sacanthias.github.io/projects/eclogue/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/eclogue/">&lt;h2 id=&quot;what-it-is&quot;&gt;What It Is&lt;&#x2F;h2&gt;
+&lt;p&gt;Sheep Protector (working title) is a single-player environmental adventure game, where the player dons the role of a sheepdog attempting to guide a single sheep through a treacherous forest back to the main herd. Along the way, the two encounter obstacles and hostile wildlife, which they must avoid to return home.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;&#x2F;h1&gt;
+&lt;p&gt;Sheep Protector is still currently in development. We plan to display our game at RIT&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;eclogue&#x2F;www.rit.edu&#x2F;computing&#x2F;school-interactive-games-and-media&#x2F;ims&quot;&gt;Interactive Media Symposium&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Some of the work I&#x27;ve done with Sheep Protector involve the&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;roles&quot;&gt;Roles&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team Lead&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;UI&#x2F;UX Designer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Programmer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Unity&lt;&#x2F;li&gt;
+&lt;li&gt;GitHub
+&lt;ul&gt;
+&lt;li&gt;Version control, Project Board, Pages, etc.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Jekyll&lt;&#x2F;li&gt;
+&lt;li&gt;Figma&lt;&#x2F;li&gt;
+&lt;li&gt;Google Docs&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;IGME320TheHerd&#x2F;SheepProtector&quot;&gt;GitHub Repository&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;igme320theherd.github.io&#x2F;SheepProtector&#x2F;&quot;&gt;Development Blog&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

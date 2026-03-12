@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Game Jam</title>
+    <link rel="self" type="application/atom+xml" href="https://sacanthias.github.io/tags/game-jam/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://sacanthias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-06T00:00:00+00:00</updated>
+    <id>https://sacanthias.github.io/tags/game-jam/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Starlit Wanderer</title>
+        <published>2024-10-06T00:00:00+00:00</published>
+        <updated>2024-10-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/starlit/"/>
+        <id>https://sacanthias.github.io/projects/starlit/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/starlit/">&lt;img class=&quot;w-100 mb-2&quot; src=&quot;&#x2F;projects&#x2F;starlit&#x2F;images&#x2F;ending%20frame%202.png&quot;&gt;
+&lt;h2 id=&quot;what-it-is&quot;&gt;What It Is&lt;&#x2F;h2&gt;
+&lt;p&gt;Starlit Wanderer is an exploration game in which the player acts as an astronaut adrift in space and, in their final moments, they reminisce on their childhood.&lt;&#x2F;p&gt;
+&lt;p&gt;The game is organized as a series of mini-games reflecting the astronaut&#x27;s childhood, intercut with their current reality, floating out into space.&lt;&#x2F;p&gt;
+&lt;p&gt;Starlit Wanderer was created and developed over 48 hours for the 2024 Granola.gg Game Jam, by a rather large team of seven.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;&#x2F;h1&gt;
+&lt;p&gt;For most of my teammates, this was our first serious game jam, where we intended to create a product that we were all proud of. This was the first time we&#x27;d applied project management to a real-life context, with varying degrees of success.&lt;&#x2F;p&gt;
+&lt;p&gt;I acted as the 2D and technical artist. As the main visual artist, my role also involved communicating with my other teammates to deliver assets that accurately reflected our narrative and were relevant to gameplay.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;roles&quot;&gt;Roles&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2D&#x2F;Technical Artist&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Aseprite&lt;&#x2F;li&gt;
+&lt;li&gt;Davinci Resolve&lt;&#x2F;li&gt;
+&lt;li&gt;GitHub Version Control&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;granola.gg&#x2F;town&#x2F;project&#x2F;332f794a&quot;&gt;Project Link&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
