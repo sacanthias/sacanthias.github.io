@@ -4,10 +4,11 @@ date = 2025-05-12
 assets="concepts"
 [taxonomies]
 tags=["Academic"]
+[extra]
+cover= "projects/light-em-up/assets/title%20bg.png"
+gloss = "An academic project focused on asset production and the creative process in the games industry."
 +++
 
-An academic project focused on asset production and the creative process in the games industry.
- <!-- more -->
 Light 'Em Up
 
 Below are examples of artwork created during the conceptual period of development and assets created for in-game use. This project took place over the course of one semester.

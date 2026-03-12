@@ -7,7 +7,7 @@
     </h1>
 </div>
 <p class="subtitle">
-    <strong>{{ page.date }}</strong>
+    <strong>{{ page.date | date(format="%b %e, %Y") }}</strong>
     <em>{{ page.description }}</em>
 </p>
 {{ page.content | safe }}

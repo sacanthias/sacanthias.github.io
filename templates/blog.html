@@ -6,21 +6,15 @@
 </div>
 
 <p>{{ section.description }}</p>
-
-<ul>
-  <!-- If you are using pagination, section.pages will be empty.
-       You need to use the paginator object -->  
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-  {% endfor %}
-</ul>
+<hr class="mb-5">
 
 {% for page in section.pages %}
   <div class="peek-container">
     <h3 class="peek-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-    <p class="peek-date">{{ page.date }}</p>
-    <p class="peek-summary">{{ page.summary | safe}}</p>
-    <a class="peek-continue" href="{{ page.permalink }}#continue-reading">Continue Reading</a>
+    <div class="peek-details">
+        <p class="peek-date">{{ page.date | date(format="%b %e, %Y") }}</p>
+        <p class="peek-summary font-italic">{{ page.summary | safe}}</p>
+    </div>
   </div>
 {% endfor %}
 {% endblock content %}

@@ -1,0 +1,15 @@
+{% if page.taxonomies.tags %}
+<ul>
+    {% for tag in page.taxonomies.tags %}
+    <li>
+        <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" itemprop="url">
+            #{{ tag }}
+        </a>
+    </li>
+    {% if page.taxonomies.tags | length > 1 %}
+    {% if loop.index != page.taxonomies.tags | length %},
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+<ul>
+        {% endif %}

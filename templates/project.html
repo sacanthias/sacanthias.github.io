@@ -8,15 +8,26 @@
 </div>
 
 <p>{{ section.description }}</p>
+<hr>
 
-<ul>
-  <!-- If you are using pagination, section.pages will be empty.
-       You need to use the paginator object -->  
+<div class="row row-cols-2 g-0 mx-n3">
   {% for page in section.pages %}
-  <li class="project-list">
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-    <p>{{ page.summary | safe }}</p>
-  </li>
+    {% if page.title %}
+    <div class="col p-3">
+      <div class="d-flex flex-column project-card">
+        {% if page.extra.cover %}
+            <img class="project-cover-img w-100" style="object-fit: cover;" src="{{ get_url(path=page.extra.cover | safe) }}">
+        {%endif%}
+        
+        <div class="p-3">
+          <a class="" href="{{ page.permalink | safe }}"><h3>{{ page.title }}</h3></a>
+          <p>{{ page.extra.gloss | safe }}</p>
+          
+        </div>
+      </div>
+    </div>
+    {% endif %}
   {% endfor %}
-</ul>
+</div>
+  
 {% endblock content %}
