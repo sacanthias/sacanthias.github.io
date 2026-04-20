@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Academic</title>
+    <link rel="self" type="application/atom+xml" href="https://sacanthias.github.io/tags/academic/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://sacanthias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-01T00:00:00+00:00</updated>
+    <id>https://sacanthias.github.io/tags/academic/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Sheep Protector</title>
+        <published>2026-02-01T00:00:00+00:00</published>
+        <updated>2026-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/eclogue/"/>
+        <id>https://sacanthias.github.io/projects/eclogue/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/eclogue/">&lt;h2 id=&quot;what-it-is&quot;&gt;What It Is&lt;&#x2F;h2&gt;
+&lt;p&gt;Sheep Protector is a single-player environmental adventure game, where the player dons the role of a sheepdog attempting to guide a single sheep through a treacherous forest back to the main herd. Along the way, the two encounter obstacles and hostile wildlife, which they must avoid to return home.&lt;&#x2F;p&gt;
+&lt;img class=&quot;w-100 mb-2&quot; src=&quot;{{cover.colocated_path}}&quot;&gt;
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;&#x2F;h1&gt;
+&lt;p&gt;Sheep Protector is still currently in development. We plan to display our game at RIT&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;eclogue&#x2F;www.rit.edu&#x2F;computing&#x2F;school-interactive-games-and-media&#x2F;ims&quot;&gt;Interactive Media Symposium&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Some of the work I&#x27;ve done with Sheep Protector involve the designing and implementation of various menus in the game, such as the start screen and pause menus, the design and process of which I discuss more in depth in &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;blog&#x2F;eclogue-menus-design&#x2F;&quot;&gt;this&lt;&#x2F;a&gt; blog post.&lt;&#x2F;p&gt;
+&lt;p&gt;As team lead, I am responsible for organizing our weekly team meetings, assigning tasks to everyone on the team, and&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;roles&quot;&gt;Roles&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Team Lead&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;UI&#x2F;UX Designer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Programmer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Unity&lt;&#x2F;li&gt;
+&lt;li&gt;GitHub
+&lt;ul&gt;
+&lt;li&gt;Version control, Project Board, Pages, etc.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Jekyll&lt;&#x2F;li&gt;
+&lt;li&gt;Figma&lt;&#x2F;li&gt;
+&lt;li&gt;Google Docs&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;IGME320TheHerd&#x2F;SheepProtector&quot;&gt;GitHub Repository&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;igme320theherd.github.io&#x2F;SheepProtector&#x2F;&quot;&gt;Development Blog&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Terra</title>
+        <published>2025-11-17T00:00:00+00:00</published>
+        <updated>2025-11-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/terra/"/>
+        <id>https://sacanthias.github.io/projects/terra/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/terra/">&lt;h2 id=&quot;what-it-is&quot;&gt;What It Is&lt;&#x2F;h2&gt;
+&lt;p&gt;Terra is a two-player tabletop print-and-play game, which is a game that is intended to be fully playable using just paper printouts. In Terra, two players take the role of humanity and nature, and attempt to work together to rebuild a decimated city in the face of environmental threats that endanger their progress.&lt;&#x2F;p&gt;
+&lt;p&gt;I designed this game alongside &lt;a href=&quot;https:&#x2F;&#x2F;example.com&quot;&gt;Milo Qureshi&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;example.com&quot;&gt;Gabriel Roddy&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;example.com&quot;&gt;Giovanna Nelson&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;example.com&quot;&gt;Davey Walls&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;&#x2F;h1&gt;
+&lt;p&gt;The development timeframe for this game was around half a semester, roughly 5-6 weeks. The majority of our development was spent discussing the design of our game, such as the different ways the many events in the game would affect the players and what they could do to resolve issues.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;retrospective&quot;&gt;Retrospective&lt;&#x2F;h1&gt;
+&lt;p&gt;The nature of our Game Design I class incentivized everyone to practice designing games, but having five general designers on a team without dividing our tasks or roles into more specific areas really affected the pace of our development. While this likely made sense to us in the moment, this team management system is significantly more inefficent than other management systems, like the Agile management framework that I&#x27;m actively working in on echoes.&lt;&#x2F;p&gt;
+&lt;p&gt;As a print-and-play game, our decisions did not have to be so greatly abstracted in a digital development environment, which led to very flexible changes in our core game loop if needed, at the detriment of not giving us that rigidity to really lock in design choices. Our scope tended to fluctuate throughout development as we tweaked the requirements for proper gameplay.&lt;&#x2F;p&gt;
+&lt;p&gt;While I believe that our overall efforts were successful and I&#x27;m proud of our final product, the issues that occurred during the development of this game really impacted our progress. I definitely feel as though I&#x27;ve learned from this experience, and I&#x27;m actively making smarter and more informed design and management choices in my &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;eclogue&#x2F;&quot;&gt;other&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.echoes-vip.org&#x2F;themes&#x2F;resonant-voices&#x2F;smoke-and-mirrors&quot;&gt;projects&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;roles&quot;&gt;Roles&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Game Designer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Card Designer&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Internal Playtester&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tabletop-creator.com&#x2F;&quot;&gt;Tabletop Creator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Google Docs&lt;&#x2F;li&gt;
+&lt;li&gt;Adobe Photoshop&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;files&#x2F;TERRA_Master.pdf.pdf&quot;&gt;Full Game and Post-Mortem&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Eighty-Sixed</title>
+        <published>2025-05-12T00:00:00+00:00</published>
+        <updated>2025-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/drafts/86ed/"/>
+        <id>https://sacanthias.github.io/drafts/86ed/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/drafts/86ed/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Light &#x27;Em Up</title>
+        <published>2025-05-12T00:00:00+00:00</published>
+        <updated>2025-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/light-em-up/"/>
+        <id>https://sacanthias.github.io/projects/light-em-up/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/light-em-up/">&lt;p&gt;Light &#x27;Em Up&lt;&#x2F;p&gt;
+&lt;p&gt;Below are examples of artwork created during the conceptual period of development and assets created for in-game use. This project took place over the course of one semester.&lt;&#x2F;p&gt;
+&lt;p&gt;In this class, I was tasked with developing concept artwork and in-game and cutscene assets for a Unity platformer game entirely from scratch, from ideation to implementation.&lt;&#x2F;p&gt;
+
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;playerdrafts.27e9c5224570322f.png&quot; &#x2F;&gt;&lt;div&gt;
+
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;forerocks.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;forerocks.4e71667cc7848b9e.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;hanging flower.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;hanging flower.5dafbb9e451f3ae9.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;hanging plant.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;hanging plant.978c201bdc480eca.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;one rock.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;one rock.b878b596b0b40050.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;plant thing.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;plant thing.178e030396391d79.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;tallrock.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;tallrock.be3096ada77cf1f4.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;assets&#x2F;title bg.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;title bg.7a7e66ab600adb19.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;concepts&#x2F;enemy concept.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;enemy concept.681d75c73172f00d.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;concepts&#x2F;full bg.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;full bg.5bda5183cf8e206c.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;concepts&#x2F;playerdrafts.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;playerdrafts.b90cbae6ae8f101c.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;sacanthias.github.io&#x2F;projects&#x2F;light-em-up&#x2F;concepts&#x2F;rendered concept.png&quot; target=&quot;_blank&quot;&gt;
+      &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;sacanthias.github.io&amp;#x2F;processed_images&amp;#x2F;rendered concept.b66082a40ba73e1a.jpg&quot; &#x2F;&gt;
+    &lt;&#x2F;a&gt;
+&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+</feed>
