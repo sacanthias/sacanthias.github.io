@@ -1,11 +1,12 @@
 +++
 title = "Terra"
-date = 2025-12-17
+date = 2025-11-17
 [taxonomies]
 tags=["Academic"]
 [extra]
 cover = "projects/terra/cover.png"
 gloss = "A print-and-play cooperative tabletop game."
+end_date = 2025-12-17
 +++
 
 ## What It Is

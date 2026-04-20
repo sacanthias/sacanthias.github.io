@@ -7,7 +7,14 @@
     </h1>
 </div>
 <p class="subtitle">
-    <strong>{{ page.date | date(format="%b %e, %Y") }}</strong>
+    <strong>
+        {{ page.date | date(format="%b %Y") }}
+        {% if page.extra.end_date %}
+            {{ page.extra.end_date | date(format="%b %Y") }}
+        {% else %}
+            - present
+        {% endif %}
+    </strong>
     <em>{{ page.description }}</em>
 </p>
 {{ page.content | safe }}
