@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>sacanthias portfolio</title>
+</head>
+
+<!--importing bootstrap 5-->
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js "></script>
+<link href=" https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css " rel="stylesheet">
+
+<!--link to the local stylesheet-->
+<link rel="stylesheet" href="https://sacanthias.github.io/style.css?h=e38b9116c5c85a150cd1">
+
+<!-- link to fontawesome stylesheets -->
+<link rel="stylesheet" href="files/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/brands.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/regular.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/solid.min.css">
+
+<body> 
+  <div id="content">
+    <!--sidebar-->
+    <div id="aside">
+        <nav>
+          <li class="nav-item">
+            <a href="/" class="nav-link">home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://sacanthias.github.io/blog/"  class="nav-link">blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://sacanthias.github.io/projects/" class="nav-link">projects</a>
+          </li>
+        </nav>
+    </div>
+
+    <!--main content-->
+    <div id="main">
+        <div class="container-body">
+          
+<div class="title">
+  <h1>Zola? Why not Jekyll?</h1>
+</div>
+<p class="subtitle"><strong>Nov  5, 2025</strong></p>
+
+<hr>
+
+<p>Is probably what you're thinking. If I went through the trouble of using Github Pages to host my portfolio, then why on earth did I use Zola and not Jekyll, which Github Pages handles natively? That's a pretty good question.</p>
+<span id="continue-reading"></span>
+<p>I've seen quite a few developers comment on why they chose Zola as their SSG of choice when self-hosting/deploying their websites, so I decided to take a crack at it too. So,</p>
+<h1 id="why-zola">why zola?</h1>
+<p><strong>1. I couldn't figure out Eleventy.</strong></p>
+<p>Eleventy was actually my first choice when it came to SSGs, but I guess I installed it at the least fortunate time-- right before a big version update was released-- that ended up completely breaking my installation of Eleventy. And yes, I did try the old "turn it off then turn it back on"; I think I installed, uninstalled, and reinstalled Eleventy around three times to no avail before I gave up.</p>
+<p>At the time, I wasn't really aware of the differences between various popular SSGs; my webdev friends used Eleventy, so I figured that I could use it too and ask them for help</p>
+
+
+        </div>
+    </div>
+
+    <div id="footer">
+      <p>&copy; Naomi Belgrave 2025 | Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+    </div>
+  </div>
+
+  <!-- tooltip js -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="files/tooltips/jquery.style-my-tooltips.js"></script>
+
+  <script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips();
+        });
+    })(jQuery);
+</script>
+</body>
+</html>

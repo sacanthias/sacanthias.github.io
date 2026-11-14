@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>sacanthias portfolio</title>
+</head>
+
+<!--importing bootstrap 5-->
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js "></script>
+<link href=" https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css " rel="stylesheet">
+
+<!--link to the local stylesheet-->
+<link rel="stylesheet" href="https://sacanthias.github.io/style.css?h=e38b9116c5c85a150cd1">
+
+<!-- link to fontawesome stylesheets -->
+<link rel="stylesheet" href="files/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/brands.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/regular.min.css">
+<link rel="stylesheet" href="files/fontawesome/css/solid.min.css">
+
+<body> 
+  <div id="content">
+    <!--sidebar-->
+    <div id="aside">
+        <nav>
+          <li class="nav-item">
+            <a href="/" class="nav-link">home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://sacanthias.github.io/blog/"  class="nav-link">blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://sacanthias.github.io/projects/" class="nav-link">projects</a>
+          </li>
+        </nav>
+    </div>
+
+    <!--main content-->
+    <div id="main">
+        <div class="container-body">
+          
+<div class="title">
+  <h1>designing UI - first forays</h1>
+</div>
+<p class="subtitle"><strong>Feb 26, 2026</strong></p>
+
+<hr>
+
+<p>An exploration and short walkthrough my design process for the menus in Sheep Protector.</p>
+<span id="continue-reading"></span>
+<p>As discussed <a href="https://sacanthias.github.io/projects/eclogue/">elsewhere</a> on my blog,</p>
+<p>Apart from project organization and creating our development blog, my primary role in this project was designing and implementing UI, which involved designing the layout of menus, modals, and loading screens.</p>
+<h2 id="gathering-inspiration">Gathering Inspiration</h2>
+<p>At first, I looked at <a href="https://store.steampowered.com/app/384190/ABZU/">ABZU</a> and <a href="https://store.steampowered.com/app/990630/The_Last_Campfire/">The Last Campfire</a> as references: they both tended to utilize a basic black overlay with some high contrast text on top for pause, settings, and main menu screens. I generally wanted something simple that wouldn't draw the player's attention out of the experience too much, and I liked how these two games really exemplified that in their UI design.</p>
+<p>But... wait. What about the settings menu?</p>
+<p>I could have a entirely separate settings screen, just for ease of development, but that would require a dedicated keybind for both KBM and controller and establishing this kind of summative development precedent could be at odds with our design pillars. It would also mess with the player's mental model of a pause screen-- most game pause screens have a subdirectory of settings, credits, etc.,</p>
+<p>I then came across <a href="https://medium.com/@a_kill_/video-game-ui-the-design-process-explained-14c23fa70d37">this</a> Medium article by <a href="https://medium.com/@a_kill_">Akhil Dakinedi</a>, who writes extensively on all manners of UI, especially game UI. He breaks down his process quite succinctly in this article, and he offered some design alternatives to the traditional three-button menu.</p>
+<p>Dakinedi's detailed iterative process also made me realize that I was not making <em>nearly</em> as many mockups as I should've been. So, it's back to the drawing board.</p>
+<h2 id="first-passes">First Passes</h2>
+<p>After going through my inspirations, which I talk about in more depth <a href="https://sacanthias.github.io/blog/eclogue-inspo/">here</a>, I created a couple mockups for the pause menu screen, which look like this. The background image I use here is concept art provided by our main artist, Milo Qureshi.</p>
+<img class="w-100 mb-2" src="/images/pausemenu.png">
+<p>Both are pretty simple, admittedly, but they both encapsulate the "feel" that I want from this pause menu: a minimalist, unobtrusive display that shows only the things that the user needs, without any embellishments.</p>
+<h2 id="implementation">Implementation</h2>
+<p>All of this UI design, or at least the foundation, were required for our MVI build due around two weeks after we started development. With my rough concepts done, I got to work implementing them in Unity, which was pretty straightforward. I was used to working with Unity's in-scene Canvas UI, and it's honestly my preferred UI implementation since programming in Unity events is much, much easier.</p>
+<p>When I was finished, the pause menu looked like this:</p>
+<p>![[Pasted image 20260226115906.png]]</p>
+<p>Which, okay! It's nowhere near as refined as my first draft, but the idea is there. The text is mostly in the same place, but the buttons are not. This was a conscious decision I made due to the differences in interaction between KBM and controller. Currently, we're only really developing for KBM while keeping controller inputs in the back of our minds, so I decided that it'd be most useful to focus on KBM for our first build.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>This was one of my first forays into UI design, and I feel like my efforts were successful, incipient as my skills are.</p>
+
+
+        </div>
+    </div>
+
+    <div id="footer">
+      <p>&copy; Naomi Belgrave 2025 | Powered by <a href="https://www.getzola.org/">Zola</a> | Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+    </div>
+  </div>
+
+  <!-- tooltip js -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="files/tooltips/jquery.style-my-tooltips.js"></script>
+
+  <script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips();
+        });
+    })(jQuery);
+</script>
+</body>
+</html>

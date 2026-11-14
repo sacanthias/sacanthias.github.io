@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Programming</title>
+    <link rel="self" type="application/atom+xml" href="https://sacanthias.github.io/tags/programming/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://sacanthias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-08-01T00:00:00+00:00</updated>
+    <id>https://sacanthias.github.io/tags/programming/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Smoke &amp; Mirrors</title>
+        <published>2026-08-01T00:00:00+00:00</published>
+        <updated>2026-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://sacanthias.github.io/projects/echoes/"/>
+        <id>https://sacanthias.github.io/projects/echoes/</id>
+        
+        <content type="html" xml:base="https://sacanthias.github.io/projects/echoes/">&lt;h2 id=&quot;what-it-is&quot;&gt;What It Is&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;development&quot;&gt;Development&lt;&#x2F;h1&gt;
+&lt;p&gt;I initially conceptualized&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.echoes-vip.org&#x2F;themes&#x2F;resonant-voices&#x2F;smoke-and-mirrors&quot;&gt;echoes website page&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
