@@ -12,7 +12,7 @@ end_date = 2025-12-17
 ## What It Is
 Terra is a two-player tabletop print-and-play game, which is a game that is intended to be fully playable using just paper printouts. In Terra, two players take the role of humanity and nature, and attempt to work together to rebuild a decimated city in the face of environmental threats that endanger their progress.
 
-I designed this game alongside [Milo Qureshi](https://example.com), [Gabriel Roddy](https://example.com), [Giovanna Nelson](https://example.com), and [Davey Walls](https://example.com).
+I designed this game within a five-person team, including myself.
 
 # Development
 The development timeframe for this game was around half a semester, roughly 5-6 weeks. The majority of our development was spent discussing the design of our game, such as the different ways the many events in the game would affect the players and what they could do to resolve issues.
@@ -24,7 +24,7 @@ The nature of our Game Design I class incentivized everyone to practice designin
 
 As a print-and-play game, our decisions did not have to be so greatly abstracted in a digital development environment, which led to very flexible changes in our core game loop if needed, at the detriment of not giving us that rigidity to really lock in design choices. Our scope tended to fluctuate throughout development as we tweaked the requirements for proper gameplay.
 
-While I believe that our overall efforts were successful and I'm proud of our final product, the issues that occurred during the development of this game really impacted our progress. I definitely feel as though I've learned from this experience, and I'm actively making smarter and more informed design and management choices in my [other](@/projects/eclogue/index.md) [projects](https://www.echoes-vip.org/themes/resonant-voices/smoke-and-mirrors).
+While I believe that our overall efforts were successful and I'm proud of our final product, the issues that occurred during the development of this game really impacted our progress. I definitely feel as though I've learned from this experience, and I'm actively making smarter and more informed design and management choices in my [other](@/projects/eclogue/index.md) [projects](@/projects/echoes/index.md).
 
 ## Roles
 - **Game Designer**

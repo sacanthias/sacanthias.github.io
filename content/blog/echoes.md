@@ -57,4 +57,4 @@ By this time, the visual design was taking more and more inspiration from theate
 
 ## Wrapping Things Up
 
-*echoes* was one of the first projects that I worked on where the visual design and game design were developed in tandem, and it formed this really intriguing relationship where the aesthetic of the game was meant to uplift the gameplay itself, and vice versa. Overall, I am immensely satisfied with the work I did towards Smoke & Mirrors this semester, and I am excited to continue the visual development of this game this fall.
+*echoes* was one of the first projects that I worked on where the visual design and game design were developed in tandem, and it formed this really intriguing relationship where the aesthetic of the game was meant to uplift the gameplay itself, and vice versa. Overall, I am immensely satisfied with the work I did towards Smoke & Mirrors this semester, and I am excited to continue the visual development of this game this fall as a technical artist.
